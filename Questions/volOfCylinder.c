@@ -8,6 +8,5 @@ int main()
 
     vol = PI * r * r * h;
 
-    printf("Volume of the cylinder is %f", vol, " cubic unit");
-    printf(" cubic unit");
+    printf("Volume of the cylinder is %f cubic unit", vol);
 }

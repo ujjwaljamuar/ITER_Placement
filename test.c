@@ -1,5 +1,7 @@
 #include<stdio.h>
 int main(){
-    printf("hi");
-    return 0;
+    
+    int x = 10,y = 20 , z = 30;
+    int max = x > y ?( x > z ? x : z ) : (y > z ? y : z);
+    printf("%d",max);
 }

@@ -1,7 +1,11 @@
 #include<stdio.h>
 int main(){
     
-    int x = 10,y = 20 , z = 30;
-    int max = x > y ?( x > z ? x : z ) : (y > z ? y : z);
-    printf("%d",max);
+    if((-100 && 100) || (20 && -20)){
+        printf("%s","condition true");
+    }
+    else{
+        printf("%s","false");
+    }
+    
 }

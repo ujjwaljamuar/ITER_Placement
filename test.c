@@ -1,11 +1,18 @@
-#include<stdio.h>
-int main(){
-    
-    if((-100 && 100) || (20 && -20)){
-        printf("%s","condition true");
+#include <stdio.h>
+
+int main()
+{
+    int i = 3;
+    switch(i  ){
+        case 0+1:
+            printf("ok");
+            break;
+        case 1+2:
+            printf("hello");
+            break;
+        default:
+            printf("bye");
+        
     }
-    else{
-        printf("%s","false");
-    }
-    
+    return 0;
 }

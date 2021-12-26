@@ -29,7 +29,7 @@ void bubble(int arr[], int n)
 
 void main()
 {
-    int arr[5] = {7, 4, 8, 6, 7};
+    int arr[] = {7, 4, 8, 6, 7};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     printf("Before sorting -> \n");

@@ -117,11 +117,13 @@ struct node *createNode(int n){
 void ins_beg(struct node *start, struct node *nw){
     if(start == NULL){
         start = nw;
+        return;
     }
-    else{
-        nw->next = start;
-        start = nw;
-    }
+    
+    nw->next = start;
+    start = nw;
+    return;
+    
 }
 
 void ins_end(struct node *start, struct node *nw){

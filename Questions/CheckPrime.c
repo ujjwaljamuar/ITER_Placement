@@ -22,7 +22,7 @@ int isPrime(int n){
 }
 int main(){
     int n;
-    printf("Enter n : ");
+    printf("Enter number : ");
     scanf("%d",&n);
     if (isPrime(n))
     {

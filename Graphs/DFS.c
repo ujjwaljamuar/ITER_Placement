@@ -157,8 +157,8 @@ int main()
     addEdge(2, 4); // B - D
     addEdge(3, 4); // C - D
 
-    printf("Depth First Search: ")
-        depthFirstSearch();
+    printf("Depth First Search: ");
+    depthFirstSearch();
 
     return 0;
 }

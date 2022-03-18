@@ -15,8 +15,7 @@ struct AdjList
 	struct AdjListNode *head; 
 }; 
 
-// A structure to represent a graph. A graph 
-// is an array of adjacency lists. 
+// A structure to represent a graph. A graph is an array of adjacency lists. 
 // Size of array will be V (number of vertices 
 // in graph) 
 struct Graph 
@@ -42,8 +41,7 @@ struct Graph* createGraph(int V)
 
 	// Create an array of adjacency lists. Size of 
 	// array will be V 
-	graph->array = 
-	(struct AdjList*) malloc(V * sizeof(struct AdjList)); 
+	graph->array = (struct AdjList*) malloc(V * sizeof(struct AdjList)); 
 
 	// Initialize each adjacency list as empty by 
 	// making head as NULL 

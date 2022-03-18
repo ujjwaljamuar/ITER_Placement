@@ -1,18 +1,16 @@
 #include <stdio.h>
+#define SQR(a) a*a
+
+
+int sqr(int a){
+    return a*a;
+    }
 
 int main()
 {
-    int i = 3;
-    switch(i  ){
-        case 0+1:
-            printf("ok");
-            break;
-        case 1+2:
-            printf("hello");
-            break;
-        default:
-            printf("bye");
-        
-    }
+    int x = 10;
+    printf("%d \n",sqr(++x));
+    printf("%d ",SQR(++x));
+
     return 0;
 }

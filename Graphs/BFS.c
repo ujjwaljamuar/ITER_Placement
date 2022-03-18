@@ -8,7 +8,7 @@
 
 SA  SB  SC  AD BD CD
 A B C no connection
-tutorial point*/
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
